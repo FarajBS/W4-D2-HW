@@ -1,0 +1,116 @@
+/* All Of Website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background: linear-gradient(180deg, rgb(235, 234, 234), rgb(121, 120, 120));
+}
+
+a {
+    text-decoration: none;
+    color: #fff !important;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue !important;
+}
+
+::-ms-input-placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.6 !important;
+}
+  
+::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.6 !important;
+}
+
+.inpvalid:focus:valid {
+    border: 3px solid green;
+}
+
+.inpvalid:focus:invalid {
+    border: 3px solid rgb(243, 106, 106);
+}
+
+.active {
+    color: blue;
+}
+/*=== All Of Website ===*/
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Header Section */
+Header nav{
+    background-color: rgb(148, 148, 148);
+}
+/*=== Header Section ===*/
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* main Section */
+main {
+    width: 100%;
+    /* height: 62.5vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .contContent {
+    background-color: rgb(148, 148, 148);
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid grey;
+}
+
+main .contContent .sign {
+    text-align: center;
+}
+/*=== main Section ===*/
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer Section */
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(112, 112, 112);
+}
+
+footer h2 {
+    color: #fff;
+}
+/*=== Footer Section ===*/
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    main .contContent {
+        width: 90%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main {
+        text-align: center !important;
+    }
+
+    main .contContent {
+        width: 100%;
+    }
+}
