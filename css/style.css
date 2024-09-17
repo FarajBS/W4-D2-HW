@@ -51,6 +51,7 @@ a:hover {
 /* Header Section */
 Header nav{
     background-color: rgb(148, 148, 148);
+    
 }
 /*=== Header Section ===*/
 
@@ -86,9 +87,7 @@ footer {
     justify-content: center;
     padding: 15px;
     background-color: rgb(112, 112, 112);
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    height: 100%;
 }
 
 footer h2 {
