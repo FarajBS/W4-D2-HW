@@ -8,6 +8,7 @@
 body {
     font-family: "Roboto Slab", serif;
     background-color: rgb(235, 234, 234);
+    height: 100%;
 }
 
 a {
